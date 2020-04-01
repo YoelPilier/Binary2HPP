@@ -49,7 +49,7 @@ const static void	GenerateHPPFile(
 		if (not (i % 10) and i > 0)file_out << std::endl;
 	}
 	file_out << "};" << std::endl << "}";
-	std::cout << std::endl << "Exit Success" << std::endl;
+	std::cout << std::endl << Name << " Success" << std::endl;
 
 	delete[] load_data;
 }

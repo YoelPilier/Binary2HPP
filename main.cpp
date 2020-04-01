@@ -10,6 +10,6 @@ int main(int argc, char* argv[]) {
 			GenerateHPPFile(argv[i]);
 	}
 
-	return 0;
+	return EXIT_SUCCESS;
 }
 //------
